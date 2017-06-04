@@ -1,12 +1,8 @@
 #include "Outcome.h"
+#include "Trigger.h"
+#include <string>
 
 const int MAX_TRIGGERS = 8;
-
-struct Trigger {
-    Outcome* outcomes;
-    int size;
-    int id;
-}
 
 class StoryFrame {
 public:
